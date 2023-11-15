@@ -2,15 +2,17 @@
 
 Autores: Emelyn Alves, Geovana Bettero, Gustavo Uchôa, Samira Oliveira.
 
-Quem somos? 
+# Quem somos? 
 Olá! Nós somos os Magos-do-Pump, grupo da disciplina de Aprendizado de Máquina formado por alunos do 2° semestre de Bacharelado em Ciência e Tecnologia da Ilum - Escola de Ciência. 
 
-Objetivo: Prever, por meio de modelos treinados por aprendizado de máquina, se uma pessoa é ou não fumante ou alcoólatra, com base em dados de seus sinais corporais. 
+# Objetivo: 
+Prever, por meio de modelos treinados por aprendizado de máquina, se uma pessoa é ou não fumante ou alcoólatra, com base em dados de seus sinais corporais. 
 
-Metodologia: Utilizamos o dataset "Smoking and Drinking Dataset with body signal" para treinar os seguintes modelos do scikit-learn: Dummy Classifier, KNN Classificador, Regressão Logística e Floresta Aleatória. 
+# Metodologia:
+Utilizamos o dataset ["Smoking and Drinking Dataset with body signal"](https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset) para treinar os seguintes modelos do scikit-learn: Dummy Classifier, KNN Classificador, Regressão Logística e Floresta Aleatória. 
 
 Descrição do dataset: 
-"Smoking and Drinking Dataset with body signal" é um conjunto de dados coletados do Seguro de Saúde Nacional da Coreia do Sul. Esse dataset é, originalmente, formado por 24 atributos/colunas e 284428 exemplos/linhas. Os atributos e suas classificações (categórico ou numérico) são: 
+"Smoking and Drinking Dataset with body signal" é um conjunto de dados coletados do Seguro de Saúde Nacional da Coreia do Sul, disponível na plataforma kaggle. Esse dataset é, originalmente, formado por 24 atributos/colunas e 284428 exemplos/linhas. Os atributos e suas classificações (categórico ou numérico) são: 
 1. `sex` - Sexo (feminino ou maculino); categórico (C)
 2. `age` - Idade; numérico (N)
 3. `height` - Altura (cm); N
@@ -32,5 +34,8 @@ Descrição do dataset:
 19. `serum_creatinine` - Creatinina no sangue (mg/dL); N
 20. `SGOT_AST` - Enzima aspartato aminotransferase (IU/L); N
 21. `gamma_GTP` - Enzima gama glutamil transferase (IU/L); N
-22. `SMK_stat_type_cd` - Estado de fumante (1. nunca fumou; 2. costumava fumar, mas parou; 3. fuma); C
-23. `DRK_YN` - Estado de alcoólatra (Y - sim; N - não); C 
+23. `SMK_stat_type_cd` - Estado de fumante (1. nunca fumou; 2. costumava fumar, mas parou; 3. fuma); C
+24. `DRK_YN` - Estado de alcoólatra (Y - sim; N - não); C
+
+Nesse caso, os atributos escolhidos para serem `targets` são: 23 e 24. 
+
