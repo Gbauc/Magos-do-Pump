@@ -2,7 +2,7 @@
 
 Autores: Emelyn Alves, Geovana Bettero, Gustavo Uchôa, Samira Oliveira.
 
-# Quem somos? 
+## Quem somos? 
 Olá! Nós somos os Magos-do-Pump, grupo da disciplina de Aprendizado de Máquina formado por alunos do 2° semestre de Bacharelado em Ciência e Tecnologia da Ilum - Escola de Ciência. 
 
 ## Objetivo: 
@@ -11,7 +11,7 @@ Prever, por meio de modelos treinados por aprendizado de máquina, se uma pessoa
 ## Metodologia:
 Utilizamos o dataset "Smoking and Drinking Dataset with body signal" para treinar os seguintes modelos do scikit-learn: Dummy Classifier, KNN Classificador, Regressão Logística e Floresta Aleatória. 
 
-## Descrição do dataset: 
+## Sobre o dataset: 
 ["Smoking and Drinking Dataset with body signal"](https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset) é um conjunto de dados coletados do Seguro de Saúde Nacional da Coreia do Sul, disponível na plataforma [kaggle](https://www.kaggle.com/). Esse dataset é, originalmente, formado por 24 atributos/colunas e 284428 exemplos/linhas. Os atributos e suas classificações (categórico ou numérico) são: 
 1. `sex` - Sexo (feminino ou maculino); categórico (C)
 2. `age` - Idade; numérico (N)
@@ -39,3 +39,9 @@ Utilizamos o dataset "Smoking and Drinking Dataset with body signal" para treina
 
 Para o trabalho os atributos escolhidos para serem targets foram: 23 e 24. 
 
+## Sobre o scikit-learn e os modelos utilizados: 
+O scikit-learn ou sklearn é uma biblioteca de código aberto, em linguagem Python, que oferece ferramentas para análise preditiva de dados a partir de aprendizado de máquina. O sklearn permite a aplicação de diversos modelos, já conhecidos matematicamente, para ajustar e prever dados. Nesse trabalho utilizamos 4 dos modelos disponibilizados pelo sklearn, vamos explorá-los? 
+1. Dummy Classifier $->$ 
+2. KNN Classificador 
+3. Regressão Logística
+4. Floresta Aleatória 
