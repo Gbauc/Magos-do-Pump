@@ -2,7 +2,7 @@
 
 Autores: Emelyn Alves, Geovana Bettero, Gustavo Uchôa, Samira Oliveira.
 
-## Quem somos? 
+# Quem somos? 
 Olá! Nós somos os Magos-do-Pump, grupo da disciplina de Aprendizado de Máquina formado por alunos do 2° semestre de Bacharelado em Ciência e Tecnologia da Ilum - Escola de Ciência. 
 
 ## Objetivo: 
