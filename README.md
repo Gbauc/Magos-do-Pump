@@ -41,7 +41,7 @@ Para o trabalho os atributos escolhidos para serem targets foram: 23 e 24.
 
 ## Sobre o scikit-learn e os modelos utilizados: 
 O scikit-learn ou sklearn é uma biblioteca de código aberto, em linguagem Python, que oferece ferramentas para análise preditiva de dados a partir de aprendizado de máquina. O sklearn permite a aplicação de diversos modelos, já conhecidos matematicamente, para ajustar e prever dados. Nesse trabalho utilizamos 4 dos modelos disponibilizados pelo sklearn, vamos explorá-los? 
-1. Dummy Classifier $->$ 
+1. Dummy Classifier $->$
 2. KNN Classificador 
 3. Regressão Logística
 4. Floresta Aleatória 
