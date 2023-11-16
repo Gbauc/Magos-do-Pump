@@ -6,7 +6,7 @@ _Autores:_ Emelyn Alves, Geovana Bettero, Gustavo Uchôa, Samira Oliveira.
 Olá, querido leitor! Nós somos os Magos-do-Pump, grupo da disciplina de Aprendizado de Máquina formado por alunos do 2° semestre de Bacharelado em Ciência e Tecnologia da Ilum - Escola de Ciência, escola de ensino superior do CNPEM (Centro Nacional de Pesquisa em Energia e Materiais). O grupo é fruto da "fusão" de duas duplas: Phosphorus do Python (Emelyn e Gustavo) e Grahcyanne's (Geovana e Samira). 
 
 ## Objetivo: 
-Prever, por meio de modelos treinados por aprendizado de máquina, se uma pessoa é ou não fumante ou alcoólatra, com base em dados de seus sinais corporais. 
+Prever, por meio de modelos treinados por aprendizado de máquina, se uma pessoa é ou não alcoólatra, com base em dados de seus sinais corporais. 
 
 ## Metodologia:
 Utilizamos o dataset "Smoking and Drinking Dataset with body signal" para treinar os seguintes modelos do `scikit-learn`: Dummy Classifier, KNN Classificador, Regressão Logística, Árvore de Decisão e Floresta Aleatória. Foram utilizadas, para tratamento dos dados e criação dos modelos as seguintes bibliotecas: `sklearn`, `numpy`, `pandas`, `seaborn`, `imblearn`, `pickle` e `matplotlib`. Além disso, contamos também com a ajuda do Heisenberg, o HPC (Computador de Alto Processamento) da Ilum, para processar os dados e executar o modelo de Floresta Aleatória mais eficientemente. 
@@ -37,7 +37,7 @@ Utilizamos o dataset "Smoking and Drinking Dataset with body signal" para treina
 23. `SMK_stat_type_cd` - Estado de fumante (1. nunca fumou; 2. costumava fumar, mas parou; 3. fuma); C
 24. `DRK_YN` - Estado de alcoólatra (Y - sim; N - não); C
 
-Para o trabalho os atributos escolhidos para serem targets foram: 23 e 24. 
+Para o trabalho os atributos escolhidos para ser o target foi o 23. 
 *Lembrando:* Targets são os atributos de um conjuntos de dados que queremos prever.
 
 ## Sobre o scikit-learn e os modelos utilizados: 
