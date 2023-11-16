@@ -37,7 +37,7 @@ Utilizamos o dataset "Smoking and Drinking Dataset with body signal" para treina
 23. `SMK_stat_type_cd` - Estado de fumante (1. nunca fumou; 2. costumava fumar, mas parou; 3. fuma); C
 24. `DRK_YN` - Estado de alcoólatra (Y - sim; N - não); C
 
-Para o trabalho os atributos escolhidos para ser o target foi o 23. 
+Para o trabalho o atributo escolhido para ser o target foi o 23. 
 *Lembrando:* Targets são os atributos de um conjuntos de dados que queremos prever.
 
 ## Sobre o scikit-learn e os modelos utilizados: 
