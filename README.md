@@ -69,4 +69,5 @@ O Notebook com os códigos feitos pelo grupo está no arquivo `TrabalhoFinal.ipy
 
 ### Imagens: 
 [1] (https://didatica.tech/o-que-e-e-como-funciona-o-algoritmo-knn/)
+
 [2] https://brains.dev/2023/pratica-arvores-de-decisao/
